@@ -1,0 +1,146 @@
+.bg-light-green {
+  background-color: #f2f8f1;
+}
+
+body {
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.course-card {
+  background-color: white;
+}
+
+.course-details {
+  top: -40px;
+}
+
+.f-c {
+  font-size: clamp(1.875rem, 1.4525rem + 2.3313vw, 4.25rem);
+}
+
+header, nav {
+  background-color: rgba(20, 69, 47, 0.8509803922);
+}
+
+.course-card:hover {
+  background-color: rgba(20, 69, 47, 0.8509803922);
+}
+
+.btn-green-light {
+  background-color: #7cff77;
+  border-radius: 6px;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+}
+
+.sidebar, .dashboard-nav {
+  background-color: rgba(20, 69, 47, 0.8509803922) !important;
+}
+
+.profile-name {
+  color: #7cff77;
+}
+
+.dashboard .nav-link {
+  color: white !important;
+}
+.dashboard .nav-link.active {
+  color: rgba(20, 69, 47, 0.8509803922) !important;
+  font-weight: 700;
+  box-shadow: 2px 6px 22px 5px rgba(113, 255, 119, 0.2392156863);
+  border-radius: 10px;
+}
+
+.btn-green {
+  background-color: rgba(20, 69, 47, 0.8509803922);
+  border-radius: 6px;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.profile-image {
+  height: 76px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  outline: 3px solid #7cff77;
+  outline-offset: 5;
+}
+
+.mentor-heightlight {
+  top: -20px;
+}
+
+.max-auto {
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.logo {
+  width: 50px;
+}
+
+.navbar-brand {
+  width: 100%;
+}
+@media (max-width: 750px) {
+  .navbar-brand {
+    width: auto !important;
+  }
+  .navbar-brand ~ .navigation-button {
+    display: none;
+  }
+}
+
+.green-text, .f-12 {
+  color: rgba(20, 69, 47, 0.8509803922);
+}
+
+.font-68 {
+  font-size: 50px;
+}
+
+.font-45 {
+  font-size: 45px;
+}
+
+.f-12 {
+  font-size: 12px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.catregories-card {
+  cursor: pointer;
+}
+.catregories-card:hover {
+  background-color: rgba(20, 69, 47, 0.8509803922);
+  color: white;
+}
+.catregories-card:hover img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.bg-texteure {
+  background-image: url(./assets/Pattern-Bg-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-texteure .bg-overly {
+  background-color: rgba(20, 69, 47, 0.8509803922);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-bottom: 0px;
+  padding: 117px 50px 47px 50px;
+}
+@media (max-width: 750px) {
+  .bg-texteure .bg-overly {
+    padding: 50px 0px 47px 0px;
+  }
+}
+.bg-texteure .mentor-profile-img {
+  width: 100px;
+}/*# sourceMappingURL=style.css.map */
